@@ -1,0 +1,161 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(batu.png);
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: 1500%;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.judul a {
+    font-size: 40px;
+    font-weight: 500;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+.menu {
+    float: right;
+}
+
+.gambar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#kotak2, #flip{
+    padding: 5px;
+    text-align: center;
+    background: #364f6b;
+    border: solid 2px #e0e4cc;
+    border-radius: 5px;
+    color: #000000;
+}
+
+#kotak2 {
+    padding: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #000000;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #000000;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+
+}
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.facility-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.facility-all {
+    width: 20%;
+    margin: auto;
+}
+
+.facility-all img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.facility-all p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.galery-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galery-all {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.galery-all img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.about-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-all {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.about-all img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+/* crud */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 14px;
+}

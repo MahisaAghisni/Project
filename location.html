@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Location Selecta</title>
+</head>
+
+<body>
+
+    <div id="map" style="width: 100%;height: 600px;"></div>
+    <script>
+        function initMap() {
+            var selecta = { lat: -7.818306984123557, lng: 112.52532793918763 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 9,
+                center: selecta
+            });
+            var contentString = '<img src = batu.png width = 80>';
+            var infoWindow = new google.maps.InfoWindow({
+                content: contentString,
+                position: new google.maps.LatLng(-7.805306984123557, 112.52532793918763),
+            });
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(-7.818306984123557, 112.52532793918763),
+                map: map
+            });
+            infoWindow.open(map);
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_swUw8-zqXM3mN9dq18uvOPn6-LOkCeo&callback=initMap"></script>
+</body>
+
+</html>
